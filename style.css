@@ -51,6 +51,24 @@ body {
   border-radius: 5px;
 }
 
+.footer {
+  text-align: center;
+  color: white;
+  background-color: black;
+  position: absolute;
+  margin-top: 30px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 0;
+}
+
+p {
+  padding: 0;
+}
+a {
+  color: lightgrey;
+}
 @media all and (max-width: 500px) {
   .weatherBox {
     width: 50%;
